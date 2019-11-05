@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/css/main.65605878.chunk.css",
+    "main.js": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/js/main.656d2d31.chunk.js",
+    "main.js.map": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/js/main.656d2d31.chunk.js.map",
+    "runtime-main.js": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/js/runtime-main.c17a62cd.js",
+    "runtime-main.js.map": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/js/runtime-main.c17a62cd.js.map",
+    "static/css/2.b0bb7f2c.chunk.css": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.74abff53.chunk.js": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/js/2.74abff53.chunk.js",
+    "static/js/2.74abff53.chunk.js.map": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/js/2.74abff53.chunk.js.map",
+    "index.html": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/index.html",
+    "precache-manifest.fec7797f4e54c36658d09e838d3f886b.js": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/precache-manifest.fec7797f4e54c36658d09e838d3f886b.js",
+    "service-worker.js": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/service-worker.js",
+    "static/css/2.b0bb7f2c.chunk.css.map": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/css/2.b0bb7f2c.chunk.css.map",
+    "static/css/main.65605878.chunk.css.map": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/css/main.65605878.chunk.css.map",
+    "static/media/App.css": "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/static/media/bg.b6796c73.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c17a62cd.js",
+    "static/css/2.b0bb7f2c.chunk.css",
+    "static/js/2.74abff53.chunk.js",
+    "static/css/main.65605878.chunk.css",
+    "static/js/main.656d2d31.chunk.js"
+  ]
+}

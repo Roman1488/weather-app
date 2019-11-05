@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/precache-manifest.fec7797f4e54c36658d09e838d3f886b.js"
+  "/weather-app/precache-manifest.138e06e5c60de8ca6391763b53dd188e.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -33,7 +33,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("git%20remote%20add%20origin%20https://%7Busername%7D:%7Bpassword%7D@github.com/%7Busername%7D/project.git/index.html"), {
+workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/weather-app/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 });

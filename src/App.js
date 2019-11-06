@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Titles from './components/Titles';
 import Form from './components/Form';
 import Weather from './components/Weather';
+import DateWidget from './components/DateWidget';
 
 const API_KEY = 'f37794f9be31f924418625d7c1def8db';
 
-class App extends React.Component {
+class App extends Component {
   state = {
       temperature: undefined,
       city: undefined,
@@ -64,6 +65,7 @@ class App extends React.Component {
                                 <Titles/>
                             </div>
                             <div className="col-7 form-container">
+                                <DateWidget/>
                                 <Form getWeather={this.getWeather}/>
                                 <Weather
                                     temperature={this.state.temperature}

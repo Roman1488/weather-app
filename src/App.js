@@ -17,7 +17,6 @@ class App extends Component {
   };
   getWeather = async (e) => {
       e.preventDefault();
-      console.log(navigator.geolocation);
       const city = e.target.elements.city.value;
       const country = e.target.elements.country.value;
       const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&APPID=${API_KEY}`);
@@ -54,6 +53,7 @@ class App extends Component {
       }
 
   };
+
   render() {
     return (
         <div>
@@ -66,7 +66,7 @@ class App extends Component {
                             </div>
                             <div className="col-7 form-container">
                                 <DateWidget/>
-                                <Form getWeather={this.getWeather}/>
+                                <Form userLocation={this.state.userLocation} getWeather={this.getWeather}/>
                                 <Weather
                                     temperature={this.state.temperature}
                                     city={this.state.city}
